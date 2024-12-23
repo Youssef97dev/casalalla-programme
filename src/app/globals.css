@@ -2,22 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Beaufortfor";
+  src: url("./fonts/Beaufortfor-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufortfor";
+  src: url("./fonts/Beaufortfor-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufortfor";
+  src: url("./fonts/Beaufortfor-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Beaufortfor";
+  src: url("./fonts/Beaufortfor-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Beaufortfor";
+  src: url("./fonts/Beaufortfor-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --casa-1: #efe2bd;
+  --casa-2: #c7ca9f;
+  --casa-3: #9bb386;
+  --casa-4: #6e9b74;
+  --casa-5: #3b8467;
+  --casa-6: #006c5e;
+  --casa-7: #406870;
+  --casa-8: #2f4858;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--casa-1);
+  font-family: "Beaufortfor", serif;
+}
+
+/* scroll bar */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--casa-3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--casa-4);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--casa-5);
 }
 
 @layer utilities {
