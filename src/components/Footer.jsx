@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="p-4 bg-primary_10 w-full flex flex-col justify-center items-center">
-      <div className="border-t border-primary_11 py-8 px-2 w-full flex flex-col lg:flex-row justify-between items-center text-primary_11 gap-8 lg:gap-0">
+    <div className="p-4 w-full flex flex-col justify-center items-center">
+      <div className="border-t border-primary_11 py-8 px-2 w-full flex flex-col lg:flex-row justify-between items-center text-casa_8 font-medium gap-8 lg:gap-0">
         <div className="w-full flex flex-col lg:flex-row justify-center items-start gap-5 lg:gap-0 order-2 lg:order-1">
           <ul className="w-full flex flex-col justify-start items-center underline gap-4">
             <li>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="w-full flex justify-center items-start order-1 lg:order-2">
           <Image
-            src="/logo-4.png"
+            src="/logo-1.png"
             width={170}
             height={170}
             className="cursor-pointer w-36 h-36 lg:w-56 lg:h-56"

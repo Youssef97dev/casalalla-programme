@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Events from "@/components/Events";
+import Gallery from "@/components/Gallery";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Events />
+      <Gallery />
       <Footer />
     </div>
   );
