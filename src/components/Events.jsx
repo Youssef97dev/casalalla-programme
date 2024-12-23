@@ -25,7 +25,8 @@ const events = [
   },
   {
     id: 2,
-    img_src: "",
+    img_src:
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/ua80x5nvez8bkevotcf9",
     title: "Belle & Bowie Pop Up & Styling Lounge",
     date_: "Saturday 28th December",
     para_1:
@@ -87,7 +88,7 @@ const Events = () => {
                     alt="itemImage"
                   />
                   <h1 className="text-3xl">{event.title}</h1>
-                  <strong className="text-lg mb-3">{event.date_}</strong>
+                  <h2 className="text-lg mb-3">{event.date_}</h2>
                   <p>{event.para_1}</p>
                   <p>{event.para_2}</p>
                   <p>{event.para_3}</p>
