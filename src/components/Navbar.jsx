@@ -13,10 +13,10 @@ const Navbar = () => {
       <nav className="fixed left-0 top-0 z-20 w-full flex flex-row justify-between items-center uppercase px-4 lg:px-10 border-b border-casa_5 bg-casa_2">
         <ul className="w-full lg:flex justify-start items-center gap-8 text-[13.5px] leading-[20.25px] text-casa_6 hidden">
           <li>
-            <Link href="#">Home</Link>
+            <Link href="https://casalallatakerkoust.com/">Home</Link>
           </li>
           <li>
-            <Link href="#">About</Link>
+            <Link href="https://casalallatakerkoust.com/about/">About</Link>
           </li>
           <li>
             <Link href="#">Day pass</Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <div className="w-full flex justify-end items-center">
           <Link
-            href="#"
+            href="/booking"
             className="bg-casa_5 hover:bg-casa_6 text-white px-10 py-5 text-xs hidden lg:block"
           >
             Book Now
@@ -69,17 +69,17 @@ const Navbar = () => {
         <div className="fixed top-10 right-0 z-10 w-full h-screen bg-casa_2 flex flex-col items-center justify-between">
           <ul className="space-y-5 text-center text-casa_6 leading-[27.88px] text-[30px] mt-44">
             <li>
-              <Link href="#">HOME</Link>
+              <Link href="https://casalallatakerkoust.com/">HOME</Link>
             </li>
             <li>
-              <Link href="#">ABOUT</Link>
+              <Link href="https://casalallatakerkoust.com/about/">ABOUT</Link>
             </li>
             <li>
               <Link href="#">DAY PASS</Link>
             </li>
           </ul>
           <Link
-            href="#"
+            href="/booking"
             className="bg-casa_6 fixed bottom-14 text-white px-7 py-4 text-[18px] font-medium"
           >
             Book Now

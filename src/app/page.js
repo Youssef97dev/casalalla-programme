@@ -1,18 +1,5 @@
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import Events from "@/components/Events";
-import Gallery from "@/components/Gallery";
-import Image from "next/image";
+import Loader from "@/components/Loader";
 
 export default function Home() {
-  return (
-    <div className="bg-casa_1 w-full h-full flex flex-col justify-start items-center">
-      <Navbar />
-      <Hero />
-      <Events />
-      <Gallery />
-      <Footer />
-    </div>
-  );
+  return <Loader />;
 }

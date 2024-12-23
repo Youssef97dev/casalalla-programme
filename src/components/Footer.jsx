@@ -8,16 +8,16 @@ const Footer = () => {
         <div className="w-full flex flex-col lg:flex-row justify-center items-start gap-5 lg:gap-0 order-2 lg:order-1">
           <ul className="w-full flex flex-col justify-start items-center underline gap-4">
             <li>
-              <Link href="#">Home</Link>
+              <Link href="https://casalallatakerkoust.com/">Home</Link>
             </li>
             <li>
-              <Link href="#">About</Link>
+              <Link href="https://casalallatakerkoust.com/about/">About</Link>
             </li>
             <li>
               <Link href="#">Day pass</Link>
             </li>
             <li>
-              <Link href="#">Reservation</Link>
+              <Link href="/booking">Reservation</Link>
             </li>
           </ul>
           <div className="w-full flex flex-col justify-center items-center text-center underline">
