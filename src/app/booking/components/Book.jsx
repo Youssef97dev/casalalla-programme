@@ -244,8 +244,8 @@ const Book = () => {
                       <div
                         key={value}
                         onClick={() => setTimeBook(value)}
-                        className={`text-[14px] leading-[16px] rounded-lg px-2 py-2 lg:py-4 lg:px-4 bg-[#e5e7eb] text-[#374151] hover:bg-[#3f98a4] hover:text-white cursor-pointer ${
-                          timeBook === value && "bg-[#3897a3] text-white"
+                        className={`text-[14px] leading-[16px] rounded-lg px-2 py-2 lg:py-4 lg:px-4 bg-[#e5e7eb] text-[#374151] hover:bg-casa_8 hover:text-casa_1 cursor-pointer ${
+                          timeBook === value && "bg-casa_8 text-casa_1"
                         }`}
                       >
                         {value}
@@ -425,7 +425,7 @@ const Book = () => {
               </button>
               <button
                 type="button"
-                className="w-full text-[14px] leading-[20px] disabled:bg-[#F3F4F6] disabled:text-[#4B5563] disabled:cursor-not-allowed border border-gray-400 px-3 py-2 bg-[#3F98A4] text-[#FFFFFF] rounded-md flex justify-center items-center"
+                className="w-full text-[14px] leading-[20px] disabled:bg-[#F3F4F6] disabled:text-[#4B5563] disabled:cursor-not-allowed border border-gray-400 px-3 py-2 bg-casa_8 text-casa_1 rounded-md flex justify-center items-center"
                 onClick={() => clickBook()}
                 disabled={
                   activeTab === 1
