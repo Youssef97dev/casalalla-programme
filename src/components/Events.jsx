@@ -14,11 +14,12 @@ import "swiper/css/autoplay";
 const events = [
   {
     id: 1,
-    img_src: "",
+    img_src:
+      "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4160,w_2774/casalalla-v2/izirylze8wxm7adeaewb",
     title: "Traditional Christmas Lunch",
     date_: "Wednesday 25th December",
     para_1:
-      "HoHoHo! Chef Aniss MEski will be serving up a wonderful Christmas Feast, on festive tablescaped settinga.",
+      "HoHoHo! the best Chef will be serving up a wonderful Christmas Feast, on festive tablescaped settinga.",
     para_2: "Christmas Sweaters and Festive Attire very much encourages!",
     para_3: "800.00dhs per person",
     book: true,
@@ -26,19 +27,20 @@ const events = [
   {
     id: 2,
     img_src:
-      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/ua80x5nvez8bkevotcf9",
+      "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4160,w_2774/casa%20Lalla/ua80x5nvez8bkevotcf9",
     title: "Belle & Bowie Pop Up & Styling Lounge",
     date_: "Saturday 28th December",
     para_1:
-      "Founded by former stylist Meriem Khaldi, Belle & Bowie was born in Morocco and inspired by the vibrant energy of the studio 54 era, where Rock & Roll and Disco nights seamlessly blended.",
+      "Belle & Bowie was born in Morocco and inspired by the vibrant energy of the studio 54 era, where Rock & Roll and Disco nights seamlessly blended.",
     para_2:
       "Just in time for New Year's Eve, we'll gather around the latest B&B pieces as Mimi shares her insights on day-to-night styling, offering tips on how to adapt trends and fashion to fit each body type using our current wardrobes.",
     book: false,
   },
   {
     id: 3,
-    img_src: "",
-    title: "Festive Brunch with DJ ans special guests",
+    img_src:
+      "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4160,w_2774/casalalla-v2/dj2_uy7hdq",
+    title: "Festive Brunch with DJ and special guests",
     date_: "Sunday 29th December",
     para_1: "",
     para_2: "",
@@ -46,11 +48,12 @@ const events = [
   },
   {
     id: 4,
-    img_src: "",
+    img_src:
+      "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,g_south,h_4160,w_2774/casalalla-v2/lhb2mbtjxmjl5p8jxycr",
     title: "New Year Brunch",
     date_: "Wednesday 1st Junuary",
     para_1:
-      "If you like to ease your way into the New Year a recovery Bloody MAry or if you prefer to start the new year with a bang on the 1st, our annual New Year Day Brunch is ideal for all. Last year we danced through the sunset and we intend to have another great day to start 2025.",
+      "If you like to ease your way into the New Year a recovery Bloody Mary or if you prefer to start the new year with a bang on the 1st, our annual New Year Day Brunch is ideal for all. Last year we danced through the sunset and we intend to have another great day to start 2025.",
     para_2: "800.00dhs per person",
     book: true,
   },
@@ -83,7 +86,7 @@ const Events = () => {
               <SwiperSlide key={event.id}>
                 <div className="w-full flex flex-col justify-center items-start gap-2 px-3">
                   <img
-                    src={`https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/izirylze8wxm7adeaewb`}
+                    src={event.img_src}
                     className="w-full h-full object-cover"
                     alt="itemImage"
                   />
@@ -106,7 +109,7 @@ const Events = () => {
           </div>
         </Swiper>
       </div>
-      <div className="w-full h-full hidden lg:block">
+      <div className="w-full h-full hidden lg:block mb-12">
         <Swiper
           modules={[Navigation, Autoplay]}
           autoplay={{
@@ -128,7 +131,7 @@ const Events = () => {
               <SwiperSlide key={event.id}>
                 <div className="w-full flex flex-col justify-center items-start gap-2 px-3 lg:px-8">
                   <img
-                    src={`https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/izirylze8wxm7adeaewb`}
+                    src={event.img_src}
                     className="w-full h-full object-cover"
                     alt="itemImage"
                   />

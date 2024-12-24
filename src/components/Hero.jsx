@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="w-full flex flex-col justify-center items-start text-casa_1 pb-3">
         <h1 className="mb-5 lg:mb-10 text-[34.548px] leading-[42.5631px] lg:text-[60px] lg:leading-[73.92px]">{`Programming`}</h1>
         <p className="text-[15px] leading-[22.5px] lg:text-xl">
-          {`Expanding upon the idea of a cabinet of curiosities, the Farasha Farmhouse becomes a resoundingly ‘live space.’ The carefully curated, ever-evolving programme places fun and inspiration at the forefront, showcasing music, art, design, and ceremony to spark ongoing cultural encounters and conversations.`}
+          {`Expanding upon the idea of a cabinet of curiosities, the Casa lalla takerkoust becomes a resoundingly ‘live space.’ The carefully curated, ever-evolving programme places fun and inspiration at the forefront, showcasing music, art, design, and ceremony to spark ongoing cultural encounters and conversations.`}
         </p>
         <p className="text-[15px] leading-[22.5px] lg:text-xl">
           {`A natural evolution from the founders’ two decades of experience and expertise helming Boutique Souk, this more permanent footing in Marrakech’s outlying countryside sets the scene for more profound expressions of creative hospitality.`}
