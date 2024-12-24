@@ -139,7 +139,7 @@ const Events = () => {
                   <p>{event.para_3}</p>
                   {event.book && (
                     <Link
-                      href="#"
+                      href="/booking"
                       className="bg-casa_8 text-white px-12 py-5 text-[18px] font-medium mt-3"
                     >
                       BOOK
