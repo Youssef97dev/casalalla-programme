@@ -38,7 +38,7 @@ const ReservDayPass = () => {
   };
 
   return (
-    <div className="w-[80%] flex flex-col justify-center items-center bg-white p-2">
+    <div className="w-full lg:w-[80%] flex flex-col justify-center items-center bg-white p-2">
       <div className="w-full">
         <div className="w-full">
           {activeTab === 1 && (

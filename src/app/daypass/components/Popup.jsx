@@ -23,7 +23,7 @@ const Popup = ({ openModal, setOpenModal }) => {
           <div className="fixed inset-0" />
         </TransitionChild>
         <div className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
-          <div className="flex items-center justify-center min-h-screen px-4">
+          <div className="flex items-center justify-center min-h-screen px-0 lg:px-4">
             <TransitionChild
               as={Fragment}
               enter="ease-out duration-300"
@@ -46,7 +46,7 @@ const Popup = ({ openModal, setOpenModal }) => {
                     x
                   </button>
                 </div>
-                <div className="py-10 px-5 bg-casa_1 w-full flex justify-center items-center">
+                <div className="py-10 px-0 bg-casa_1 w-full flex justify-center items-center">
                   <ReservDayPass />
                 </div>
               </DialogPanel>
