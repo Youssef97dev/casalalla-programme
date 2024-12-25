@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link href="https://casalallatakerkoust.com/about/">About</Link>
           </li>
           <li>
-            <Link href="#">Day pass</Link>
+            <Link href="/daypass">Day pass</Link>
           </li>
         </ul>
         <div className="w-full flex lg:justify-center justify-start items-center">
@@ -75,7 +75,7 @@ const Navbar = () => {
               <Link href="https://casalallatakerkoust.com/about/">ABOUT</Link>
             </li>
             <li>
-              <Link href="#">DAY PASS</Link>
+              <Link href="/daypass">DAY PASS</Link>
             </li>
           </ul>
           <Link
