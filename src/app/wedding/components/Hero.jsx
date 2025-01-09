@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[120vh] flex justify-center items-center">
+    <div className="relative w-full h-full lg:h-[120vh] flex justify-center items-center">
       <Image
         src="https://res.cloudinary.com/dz7wroord/image/upload/e_improve:outdoor/c_crop,g_center,h_2080,w_4160/casalalla-v2/e28ypfnpoadluzx8wtsy"
         height={500}
